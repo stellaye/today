@@ -3,8 +3,8 @@ import setuptools
 setuptools.setup(
     name="today",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
+    author="lindaye",
+    author_email="454784911@qq.com",
     description="基于爬虫的历法查询工具",
     url="https://github.com/stellaye/today",
     packages=setuptools.find_packages("today"),
