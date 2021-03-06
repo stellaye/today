@@ -25,4 +25,3 @@ class HuangliSpider(SpiderBase):
 if __name__ == '__main__':
     a = HuangliSpider()
     print(a.get_current_calender())
-    print(sys.version_info)
