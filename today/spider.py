@@ -15,7 +15,7 @@ class HuangliSpider(SpiderBase):
 
     api_url = "https://nongli.911cha.com/"
     def get_current_calender(self):
-        html = requests.get(self.api_url,headers=self.headers).content
+        html = requests.get(self.api_url,headers=self.headers).text
         re_pattern = "今日.*?年柱.*?<br />(.*?)</td>.*?月柱.*?<br />(.*?)</td>.*?日柱.*?<br />(.*?)</td>.*?时柱.*?<br />(.*?)</td>"
         r = re.search(re_pattern,html)
         return r.group(1),r.group(2),r.group(3),r.group(4)

@@ -7,7 +7,7 @@ setuptools.setup(
     author_email="454784911@qq.com",
     description="基于爬虫的历法查询工具",
     url="https://github.com/stellaye/today",
-    packages=setuptools.find_packages("today"),
+    packages=["today"],
     entry_points={'console_scripts': [
             'td = today.main:main',
         ]},

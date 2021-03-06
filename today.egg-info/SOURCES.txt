@@ -1,4 +1,7 @@
 setup.py
+today/__init__.py
+today/main.py
+today/spider.py
 today.egg-info/PKG-INFO
 today.egg-info/SOURCES.txt
 today.egg-info/dependency_links.txt
